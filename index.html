@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPAC | WDD230</title>
+    <meta name="description" content="Website for Kauai Chamber of Commerce. This site is a project for WDD230.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <header>
+        <div class="logobox">
+            <a class="logo" href="index.html"><img class="img_logo" src="images/logo.png" alt="logo"></a>
+            <h1 class="title">São Paulo Chamber of Commerce</h1> 
+            <span id="date"></span>
+            <div class="twitter"><a href="https://facebook.com" target="_blank">
+              <img class="icons"src="images/facebook.png" alt="facebook icon"></a>
+              <a href="https://twitter.com" target="_blank">
+              <img class="icons" src="images/twitter.png" alt="twitter icon"></a>
+              <a href="https://www.instagram.com/" target="_blank">
+              <img class="icons" src="images/instagram.jpg" alt="instagram icon"></a>
+            </div>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <a class="hb" href="#">
+                        <div class="container" onclick="myFunction()">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Oportunities</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="herobanner">
+            <div>Hero with site name and call to action</div>
+        </section>
+        <section class="event">
+            <div>Event</div>
+        </section>
+        <section class="weather">
+            <div>Weather</div>
+        </section>
+        <section class="news">
+            <div>News Release</div>
+        </section>
+        <section class="spotlights">
+            <div class="sl1">Spotlight 1</div>
+            <div class="sl2">Spotlight 2</div>
+            <div class="sl3">spotlight 3</div>
+        </section>
+        <section class="join">
+            <div>Join</div>
+        </section>
+    </main>
+    <footer>
+        <div>São Paulo Chamber of Commerce |</div>
+        <div>contact@spac.com.br |</div>
+        <div>
+          <a target="blank">Rua Boa Vista, 51 - Centro - São Paulo, SP - Brazil |</a>
+        </div>
+        <div>&copy;
+          <span id="currentyear">
+          </span>
+        </div>
+        <div>
+          <a target="blank">| Marcos Guimarães</a>
+        </div>
+        <div>| WDD 230 Project | Last Updated: 
+          <span id="lastupdate"></span>
+        </div>
+    </footer>
+    <script src="scripts/footer.js"></script>
+</body>
+</html>
